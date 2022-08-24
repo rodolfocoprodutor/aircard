@@ -229,6 +229,10 @@ section.s-links .content-links {
     margin: auto;
 }
 
+section.s-links .content-links .link-contato button {
+    color: var(--white);
+    background-color: var(--gray-headline);
+}
 section.s-links .content-links .link-item button {
     color: var(--gray-headline);
     background-color: var(--brand-blue);
@@ -304,6 +308,37 @@ footer span {
     background-color: var(--brand-blue-light);
     color: var(--gray-paragraph);
 }
+ details{
+    display: flex;
+    width: 100%;
+    max-width: 36rem;
+    justify-content: center;
+    align-items: center;
+}
+ details img{
+    width: 100%;
+    max-width: max-content;
+    object-fit: contain;
+}
+ details summary{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: max-content;
+    padding: 1.6rem 2.4rem;
+    border-radius: .4rem;
+    text-align: center;
+    background-color: var(--gray-headline);
+    color: var(--white);
+    font-size: var(--body-text);
+    cursor: pointer;
+    vertical-align: middle;
+}
+ details summary svg{
+    vertical-align: middle;
+    margin-left: 1.6rem;
+}
+
 .modal-share{
     display: flex;
     flex-wrap: nowrap;
@@ -346,4 +381,11 @@ dialog >h3, p{
     stroke-width: 0;
     stroke: currentColor;
     fill: var(--gray-headline);
+}
+.icon-qrcode{
+    width: 2rem;
+    height: 2rem;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: var(--white);
 }
