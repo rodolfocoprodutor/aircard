@@ -263,12 +263,13 @@ footer span {
 .modal {
     border-radius: .6rem;
     width: 100%;
-    max-width: 90%;
+    max-width: 90vw;
     padding: 3.2rem 2.4rem;
     position:relative;
     left: 50%;
     top: 20%;
     transform: translateX(-50%);
+    overflow: hidden;
 }
 
 .modal::backdrop {
@@ -327,7 +328,7 @@ dialog >h3, p{
 .button {
     background-color: var(--brand-blue);
     color: var(--white);
-    font-size: var(--smallest);
+    font-size: var(--details);
     font-weight: 400;
     padding: 1.2rem 1.6rem;
     border-radius: .6rem;
